@@ -1,0 +1,70 @@
+a:-webkit-any-link {
+  width: 30px;
+}
+#ghlogo:hover {
+  opacity: 0.3;
+}
+#ghlogo {
+  margin: 0 auto;
+  display: block;
+  height: 40px;
+  width: 40px;
+  padding: 24px;
+}
+.tilt-neon-font {
+  font-family: "Tilt Neon", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "XROT" 0, "YROT" 0;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+.main-page h1 {
+  font-family: "Inter";
+}
+.main-page {
+  font-family: "Tilt Neon";
+  padding: 12px;
+  min-width: 600px;
+  margin: 0 auto;
+  max-width: 800px;
+  line-height: 2;
+  overflow-x: hidden;
+  color: #ffffff;
+  height: 100%;
+  text-align: center;
+  display: block;
+  border: solid white 4px;
+  background-color: #333745;
+}
+button {
+  font-family: "Tilt Neon";
+  font-size: 20px;
+  background-color: #eeebe8;
+  display: inline;
+  padding: 8px;
+  margin: 0 auto;
+}
+span {
+  text-align: center;
+  max-width: 200px;
+  min-width: fit-content;
+  color: black;
+  background-color: #d55f8f;
+  margin: 0 auto;
+  padding: 16px;
+  display: block;
+}
+html {
+  font-size: 1.2rem;
+  background-color: #d5cccc;
+}
+button:hover {
+  background-color: #d5cccc;
+}

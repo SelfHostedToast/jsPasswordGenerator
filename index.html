@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Tilt+Neon&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Password Generator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main-page">
+      <h1>JS Password Generator</h1>
+      <p>This is a simple password generator made with JavaScript.</p>
+      <p>Your new password is <span id="pass"></span></p>
+      <button onclick="createRandomString(usrlen)">Generate</button>
+      <button id="copy-btn" onclick="copyToClipboard(pass.innerText)">
+        Copy to Clipboard
+      </button>
+      <a target="_blank" href="https://github.com/SelfHostedToast">
+        <img src="./img/github-mark-white.svg" id="ghlogo"
+      /></a>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
